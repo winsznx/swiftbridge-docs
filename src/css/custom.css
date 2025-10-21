@@ -1,0 +1,48 @@
+/**
+ * SwiftBridge Documentation Custom Styles
+ */
+
+:root {
+  --ifm-color-primary: #0052ff;
+  --ifm-color-primary-dark: #0049e6;
+  --ifm-color-primary-darker: #0045d9;
+  --ifm-color-primary-darkest: #0039b3;
+  --ifm-color-primary-light: #1a63ff;
+  --ifm-color-primary-lighter: #2e70ff;
+  --ifm-color-primary-lightest: #5c8cff;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4d9eff;
+  --ifm-color-primary-dark: #3a8fff;
+  --ifm-color-primary-darker: #2e83ff;
+  --ifm-color-primary-darkest: #0068ff;
+  --ifm-color-primary-light: #60a3ff;
+  --ifm-color-primary-lighter: #74afff;
+  --ifm-color-primary-lightest: #a3c9ff;
+  --ifm-background-color: #1a1a1a;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styling */
+.hero {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+  color: white;
+}
+
+.button {
+  border-radius: 8px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
