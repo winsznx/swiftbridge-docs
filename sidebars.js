@@ -16,6 +16,8 @@ const sidebars = {
       label: 'Getting Started',
       items: [
         'getting-started/overview',
+        'getting-started/for-users',
+        'getting-started/for-developers',
       ],
     },
     {
@@ -23,6 +25,26 @@ const sidebars = {
       label: 'Smart Contracts',
       items: [
         'contracts/overview',
+        'contracts/user-registry',
+        'contracts/escrow-manager',
+        'contracts/p2p-transfer',
+        'contracts/swap-router',
+        'contracts/deployment',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Interfaces',
+      items: [
+        'bot/overview',
+        'miniapp/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Resources',
+      items: [
+        'deployed-addresses',
       ],
     },
   ],
