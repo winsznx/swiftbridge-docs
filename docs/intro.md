@@ -117,6 +117,46 @@ Need help? We're here for you:
 - Join our [Telegram Community](https://t.me/swiftbridgecommunity)
 - Read our [Blog](/blog)
 
+## Roadmap
+
+### ✅ Phase 1 - Testnet Launch (COMPLETED)
+- Smart contract development
+- Telegram bot
+- Web mini app
+- Base Sepolia deployment
+
+### 🚧 Phase 2 - Mainnet Preparation
+- Professional security audit
+- Real payment processor integration
+- Enhanced UI/UX
+- Comprehensive testing
+
+### 🔮 Phase 3 - Mainnet & Growth
+- Deploy to Base mainnet
+- Marketing campaign
+- Partnerships
+- User acquisition
+
+### 💫 Phase 4 - Expansion
+- Multi-chain support
+- More tokens
+- Advanced features
+- Mobile apps
+
+## Security
+
+### Current (Testnet)
+- OpenZeppelin battle-tested contracts
+- ReentrancyGuard on state-changing functions
+- Access control and pausability
+- ⚠️ **Not audited - testnet only**
+
+### Future (Mainnet)
+- Professional security audit
+- Bug bounty program
+- Comprehensive testing
+- Insurance coverage
+
 ---
 
 Ready to get started? Check out the [Quick Start Guide](/docs/getting-started/overview)!
